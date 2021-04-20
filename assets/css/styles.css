@@ -1,9 +1,7 @@
 /*===== GOOGLE FONTS =====*/
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Bitter:wght@900&family=Caveat&family=Quicksand:wght@500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&display=swap');
-
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=La+Belle+Aurore&display=swap');
 
 
@@ -59,6 +57,10 @@
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
   transition: .5s;
+}
+
+.home{
+
 }
 
 a{
@@ -175,13 +177,10 @@ img{
 }
 
 /*===== HOME =====*/
-
-
 .home__data{
   height: calc(100vh- 81.6px);
   text-align: left;
   width: 100%;
-  
 }
 
 .home__title {
@@ -972,6 +971,11 @@ img{
 
 .gallery img:hover{
   transition: 0.5s;
+}
+
+.ibm_certificate{
+  height: 105%;
+  margin-left: 5%;
 }
 
 /* ===== CONTACT =====*/
