@@ -973,10 +973,10 @@ img{
   transition: 0.5s;
 }
 
-.ibm_certificate{
+/*.ibm_certificate{
   height: 105%;
   margin-left: 5%;
-}
+}*/
 
 /* ===== CONTACT =====*/
 .body__contact{
@@ -1285,6 +1285,11 @@ textarea.contact_form_text{
   .gallery{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+  }
+
+  .ibm_certificate{
+    height: 105%;
+    margin-left: 5%;
   }
 
 }
