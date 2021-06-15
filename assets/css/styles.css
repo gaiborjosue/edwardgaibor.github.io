@@ -270,9 +270,7 @@ img{
   transform: translateX(250px) rotate(45deg);
 }
 
-.badge{
-  margin-right: 5%;
-}
+
 
 /*===== NAV =====*/
 .l-navbar{
@@ -330,6 +328,17 @@ img{
 
 .nav__icon{
   font-size: 1.25rem;
+}
+
+.badge{
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: -50px;
+}
+
+.badge_2{
+  display: none;
 }
 
 /*Show navbar movil*/
@@ -1292,6 +1301,13 @@ textarea.contact_form_text{
     margin-left: 5%;
   }
 
+  .badge{
+    display: none;
+  }
+
+  .badge_2{
+    margin-right: 5%;
+  }
 }
 
 @media screen and (min-width: 1024px){
