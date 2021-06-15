@@ -270,6 +270,10 @@ img{
   transform: translateX(250px) rotate(45deg);
 }
 
+.badge{
+  margin-right: 5%;
+}
+
 /*===== NAV =====*/
 .l-navbar{
   position: fixed;
@@ -1284,7 +1288,7 @@ textarea.contact_form_text{
   }
 
   .ibm_certificate{
-    height: 105%;
+    height: 410px;
     margin-left: 5%;
   }
 
