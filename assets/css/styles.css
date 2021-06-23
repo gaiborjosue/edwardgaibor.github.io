@@ -59,10 +59,6 @@
   transition: .5s;
 }
 
-.home{
-
-}
-
 a{
   text-decoration: none;
 }
@@ -274,6 +270,8 @@ img{
   transform: translateX(250px) rotate(45deg);
 }
 
+
+
 /*===== NAV =====*/
 .l-navbar{
   position: fixed;
@@ -330,6 +328,17 @@ img{
 
 .nav__icon{
   font-size: 1.25rem;
+}
+
+.badge{
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: -50px;
+}
+
+.badge_2{
+  display: none;
 }
 
 /*Show navbar movil*/
@@ -1288,10 +1297,17 @@ textarea.contact_form_text{
   }
 
   .ibm_certificate{
-    height: 105%;
+    height: 410px;
     margin-left: 5%;
   }
 
+  .badge{
+    display: none;
+  }
+
+  .badge_2{
+    margin-right: 5%;
+  }
 }
 
 @media screen and (min-width: 1024px){
