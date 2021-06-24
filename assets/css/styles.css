@@ -337,6 +337,10 @@ img{
   margin-bottom: -50px;
 }
 
+.badge_2{
+  display:none;
+} 
+
 /*Show navbar movil*/
 .show{
   left: 0;
@@ -1299,6 +1303,10 @@ textarea.contact_form_text{
 
   .badge_2{
     margin-right: 5%;
+  }
+  
+  .badge{
+    display:none;
   }
 }
 
