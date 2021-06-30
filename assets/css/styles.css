@@ -338,8 +338,8 @@ img{
 }
 
 .badge_2{
-  display:none;
-} 
+  display: none;
+}
 
 /*Show navbar movil*/
 .show{
@@ -638,7 +638,49 @@ img{
   margin-bottom: var(--mb-4);
   font-size: 14px;
   font-family: var(--body-font);
+  line-height: 25px;
+}
+
+.underlined_text{
+  text-decoration: underline; 
+  text-decoration-color: #00C2CB;
+  color: #0E2431;
+  position: relative;
+}
+.underlined_text:hover{
+  transition: .5s;
+  color: #00C2CB;
+}
+
+.underlined_text:hover .tooltip-box{
+  display: inline-block;
+}
+
+
+.tooltip-box{
+  display: none;
+  position: absolute;
+  background-color: #0E2431;
   line-height: 20px;
+  z-index: 500;
+  text-align: center;
+  font-size: 14px;
+  padding: 5px 10px;
+  color: #FFF;
+  border-radius: 5px;
+  left: -50%;
+  bottom: 30px;
+}
+
+.tooltip-box::after{
+  content: "";
+  display: block;
+  border-top: 7px solid #0E2431;
+  border-left: 7px solid transparent;
+  border-right: 7px solid transparent;
+  position: absolute;
+  bottom: -7px;
+  left: calc(50% - 7px);
 }
 .skills__data{
   display: flex;
@@ -1301,12 +1343,12 @@ textarea.contact_form_text{
     margin-left: 5%;
   }
 
+  .badge{
+    display: none;
+  }
+
   .badge_2{
     margin-right: 5%;
-  }
-  
-  .badge{
-    display:none;
   }
 }
 
