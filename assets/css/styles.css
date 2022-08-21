@@ -173,6 +173,254 @@ img{
   width: 40px;
 }
 
+.body_bioinv{
+  width: 100%;
+  height: 95vh;
+  padding: 0 1rem;
+  transition: .5s;
+  background-color: var(--first-color);
+}
+
+.red_section{
+  background-color: var(--first-color);
+  color: var(--white-color);
+  padding: var(--mb-2);
+  margin-top: var(--mb-2);
+  margin-bottom: var(--mb-2);
+  transition: .5s;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.red_cards{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 50px;
+  margin-top: var(--mb-2);
+  transition: 0.5s;
+  justify-content: space-evenly;  
+  justify-items: center;
+  align-content: space-evenly;
+  align-items: center;  
+}
+
+.bio__data{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.red_content{
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+  width: 900px;
+}
+
+.red_card{
+  transition: 0.5s;
+
+}
+
+.red_card:hover{
+  transition: 0.5s;
+  transform: translateY(-0.8%);
+}
+
+
+.red_content{
+  line-height: 1.5;
+  font-size: 0.9em;
+  background: #FFF8F7;
+  transition: 0.5s;
+  border-radius: 10px;
+}
+
+.red_content:hover{
+  transition: 0.5s;
+  transform: translateY(-0.8%);
+}
+
+.red_content > h2:first-of-type{
+  padding-top: 30px;
+  padding-bottom: 15px;
+  margin-top: 0;
+  margin-bottom: -9%;
+}
+
+.red_content > p:first-of-type{
+  padding: 15px;
+  margin-bottom: 0;
+  padding-bottom: 200px;
+}
+
+.red__info{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  border-bottom: 2px solid #cccccc;
+  color: var(--first-color);
+  border-radius: 10px;
+  margin-top: 1%;
+  background-color: #A9C4DD;
+  transition: 0.5s;
+  padding-top: 7px;
+  z-index: 100;
+}
+
+.red__info:hover{
+  transition: 0.5s;
+  background-color: var(--first-color-light);
+}
+
+
+.red_title{
+  transition: 0.5s;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  font-family: var(--title-font);
+  font-size: 35px;
+  
+  margin-bottom: 4%;
+  color: var(--first-color);
+  line-height: 1.2cm;
+}
+
+.red_title:hover {
+  transition: 0.2s;
+  color: #00C2CB;
+  cursor:default;
+}
+
+.red_content p{
+  display: flex;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 80px;
+  color: var(--first-color);
+  font-family: var(--body-font);
+  font-weight: 600;
+  font-size: 16px;
+}
+
+
+.red2_content p{
+  display: flex;
+  margin-left: 40px;
+  margin-right: 40px;
+  color: var(--first-color);
+  font-family: var(--body-font);
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.red2_content{
+  height: 840px;
+  width: 90%;
+}
+
+
+.red2_title{
+  transition: 0.5s;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  font-family: var(--title-font);
+  font-size: 35px;
+  padding-top: 30px;
+  padding-left: 25px;
+  padding-right: 25px;
+  margin-bottom: 4%;
+  color: var(--first-color);
+  line-height: 1.2cm;
+}
+
+.red2_title:hover {
+  transition: 0.2s;
+  color: #A9C4DD;
+  cursor:default;
+  font-size: 40px;
+
+}
+
+.red2_content{
+  font-size: 0.9em;
+  background: #FFF8F7;
+  transition: 0.5s;
+  border-radius: 10px;
+  margin-left: 4.5%;
+}
+
+
+.red2_card{
+  width: 100%;
+  transition: 0.5s;
+  padding-bottom: 50px;
+}
+
+.red2_card:hover{
+  transition: 0.5s;
+  transform: translateY(-0.8%);
+}
+
+.sred_cards{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 50px;
+  margin-top: var(--mb-2);
+  margin-bottom: var(--mb-2);
+  transition: 0.5s;
+  justify-content: space-evenly;  
+  justify-items: center;
+  align-content: space-evenly;
+  align-items: center;  
+}
+
+div.gallery_r {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  transition: 1s;
+}
+
+div.gallery_r:hover {
+  transition: 1.5s;
+  border: 1px solid #777;
+}
+
+div.gallery_r img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+  font-family: var(--body-font);
+  font-weight: 600;
+}
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+  padding-bottom: 15px;
+}
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.gallery_holder_r{
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+
 /*===== HOME =====*/
 .home__data{
   height: calc(100vh- 81.6px);
@@ -191,7 +439,7 @@ img{
 .home__subtitle {
   text-align: center;
   font-size: 15px;
-  color: #8f8f8f;
+  color: #585858;
 }
 
 .home__title-color{
@@ -1038,15 +1286,16 @@ img{
 }
 
 .gallery{
-  height: 100%;
-  width: 100%;
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-  grid-gap: 10px;
-  margin-bottom: 1%;
+  position: relative;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 .gallery img{
+  position: relative;
   display: flex;
   object-fit: cover;
   object-position: top;
@@ -1056,10 +1305,67 @@ img{
   transition: 0.5s;
 }
 
-/*.ibm_certificate{
-  height: 105%;
-  margin-left: 5%;
-}*/
+.codeacademy_cert {
+  width: 83.2%;
+  margin-left: 9%;
+}
+
+.container_certs{
+  position: relative;
+  width: 1150px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.container_certs .card_cert{
+  position: relative;
+  width: 300px;
+  height: 420px;
+  background: #bbb;
+  margin: 20px;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);
+  transition: 0.5s;
+}
+
+.container_certs .card_cert .card_circ{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  clip-path: circle(180px at center 0);
+  text-align: center;
+  margin-top: -20%;
+}
+
+.container_certs .card_cert .card_circ h2{
+  color: #fff;
+  font-size: 4.5em;
+  padding: 30px 0;
+  
+}
+.container_certs .card_cert .content_cert{
+  
+  position: absolute;
+  bottom: 10px;
+  padding: 20px;
+  text-align: center;
+  
+}
+
+.container_certs .card_cert .content_cert p{
+  color: #666;
+}
+.container_certs .card_cert .content_cert a{
+  margin-top: 20px;
+}
+
+
+
 
 /* ===== CONTACT =====*/
 .body__contact{
@@ -1388,5 +1694,18 @@ textarea.contact_form_text{
   .bd-grid{
     margin-left: auto;
     margin-right: auto;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
   }
 }
