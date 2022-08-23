@@ -238,10 +238,7 @@ img{
   border-radius: 10px;
 }
 
-.red_content:hover{
-  transition: 0.5s;
-  transform: translateY(-0.8%);
-}
+
 
 .red_content > h2:first-of-type{
   padding-top: 30px;
@@ -319,7 +316,7 @@ img{
 }
 
 .red2_content{
-  height: 840px;
+  height: 100%;
   width: 90%;
 }
 
@@ -353,18 +350,8 @@ img{
   transition: 0.5s;
   border-radius: 10px;
   margin-left: 4.5%;
-}
-
-
-.red2_card{
-  width: 100%;
-  transition: 0.5s;
-  padding-bottom: 50px;
-}
-
-.red2_card:hover{
-  transition: 0.5s;
-  transform: translateY(-0.8%);
+  height: auto;
+  padding-bottom: 3%;
 }
 
 .sred_cards{
@@ -373,6 +360,7 @@ img{
   grid-gap: 50px;
   margin-top: var(--mb-2);
   margin-bottom: var(--mb-2);
+  margin-left: -5.5%;
   transition: 0.5s;
   justify-content: space-evenly;  
   justify-items: center;
