@@ -22,7 +22,7 @@
         <!-- =====TAB LOGO===== -->
         <link rel="shortcut icon" type="image/png" href="./assets/img/perfil_2.jfif">
 
-        <title>Temperatura and Humidity Predictor</title>
+        <title>Exoplanet Predictor</title>
 
     </head>
     <body class="body_bioinv" id="body_inv">
@@ -34,18 +34,20 @@
                         <div class="red_card">
                             <div class="card_background">
                               <div class="red_content">
-                                <h2 class="red_title">Temperature & Humidity Predictor with Python and IoT to improve the local weather forecast.</h2>
+                                <h2 class="red_title">Exoplanet Prediction Algorithm with a 92% accuracy score.</h2>
                                 <p>As the creator of this project, my role was:<br>
                                 <br>
-                                => Build an Arduino system to collect local environmental data and connect the electronics structure to ThingSpeak through C++.
+                                => Download data from NASA's online database. Then process and clean them with Python tools (Pandas, Numpy).
                                 <br><br>
-                                => Utilize libraries such as Pandas, Numpy, Sklearn, and JobLib to adjust the data to train the model with both temperature and humidity variables and dump it into a JobLib file to use later as a GUI backend process.
+                                => Create graphs to understand the tendencies of the data and analyze the possible future relationship between the variables for the algorithm with Jupyter.
                                 <br><br>
-                                => Create a live-prediction option for the variables with Python to get the result with the immediate data sent from the weather station to the server, utilizing APIs and Joblib.
+                                => Create the algorithm's model with the Decision Tree Classifier library. Save the Model in a Joblib file.
                                 <br><br>
-                                => Create the GUI app with Tkinter and transform the format to .exe. And publish the project with GIT.
+                                => Train the Model from the Joblib file in Python with the processed data and evaluate its accuracy score.
                                 <br><br>
-                                => Write an extended essay about the mathematical relation between Temperature and Humidity to show the calculus background of the code.
+                                => Add Parse Arguments so that users can use the Model from the CLI.
+                                <br><br>
+                                => Publish it with GIT.
                                 </p>
                               </div>
                             
@@ -66,41 +68,41 @@
           
           <div class="sred_cards"> 
                   <div class="red2_content">
-                      <h2 class="red2_title">Temperature-Humidity Predictor Project Gallery</h2>
+                      <h2 class="red2_title">Exoplanet Predictor Project Gallery</h2>
                       <div class="gallery_holder_r">
                           <div class="responsive">
                               <div class="gallery_r">
-                                <a target="_blank" href="assets\img\temphumpredictor\geo.png">
-                                  <img src="assets\img\temphumpredictor\geo.png" alt="Cinque Terre" width="600" height="400">
+                                <a target="_blank" href="assets\img\exoplanet\cliui.png">
+                                  <img src="assets\img\exoplanet\cliui.png" alt="Cinque Terre" width="600" height="400">
                                 </a>
-                                <div class="desc">Geoimage of where the Weather Station was located.</div>
+                                <div class="desc">Command line interface so the user can use the predictor with some commands and labels.</div>
                               </div>
                             </div>
                             
                             <div class="responsive">
                               <div class="gallery_r">
-                                <a target="_blank" href="assets\img\temphumpredictor\inv.png">
-                                  <img src="assets\img\temphumpredictor\inv.png" alt="Forest" width="600" height="400">
+                                <a target="_blank" href="assets\img\exoplanet\graphs.png">
+                                  <img src="assets\img\exoplanet\graphs.png" alt="Forest" width="600" height="400">
                                 </a>
-                                <div class="desc">The structure of the greenhouse, where the investigation took place.</div>
+                                <div class="desc">One example graph of all the variables normalized within the data analysis.</div>
                               </div>
                             </div>
 
                             <div class="responsive">
                               <div class="gallery_r">
-                                <a target="_blank" href="assets\img\temphumpredictor\ui.png">
-                                  <img src="assets\img\temphumpredictor\ui.png" alt="Forest" width="600" height="400">
+                                <a target="_blank" href="assets\img\exoplanet\planet_vs_rvelocity.jpg">
+                                  <img src="assets\img\exoplanet\planet_vs_rvelocity.jpg" alt="Forest" width="600" height="400">
                                 </a>
-                                <div class="desc">The UI so the user can predict the values, the download option is on Github.</div>
+                                <div class="desc">Another type of graph utilized during the analysis.</div>
                               </div>
                             </div>
                             
                             <div class="responsive">
                               <div class="gallery_r">
-                                <a target="_blank" href="assets\img\temphumpredictor\usage.png">
-                                  <img src="assets\img\temphumpredictor\usage.png" alt="Northern Lights" width="600" height="400">
+                                <a target="_blank" href="assets\img\exoplanet\usage.png">
+                                  <img src="assets\img\exoplanet\usage.png" alt="Northern Lights" width="600" height="400">
                                 </a>
-                                <div class="desc">How to use the app, and know what the values mean.</div>
+                                <div class="desc">How to use the predictor within the CLI.</div>
                               </div>
                             </div>
                         
