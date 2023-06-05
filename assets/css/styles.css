@@ -902,6 +902,12 @@ div.desc {
   color: var(--first-color);
 
 }
+
+.skills-grid {
+  display: grid;
+  grid-gap: 20px; /* Adjust this value to add spacing between skills */
+}
+
 .skills__text{
   margin-bottom: var(--mb-4);
   font-size: 14px;
@@ -953,14 +959,15 @@ div.desc {
 .skills__data{
   display: flex;
   justify-content: space-between;
-  align-items: left;
+  align-items: center;
   position: relative;
   font-weight: 900;
   padding: .5rem 1rem;
-  margin-bottom: 2rem;
+  margin-bottom: 10px;
   border-radius: .5rem;
   box-shadow: 0 4px 25px rgba(14,36,49,.15);
 }
+
 .skills__icon{
   font-size: 2rem;
   margin-right: var(--mb-2);
@@ -1582,6 +1589,10 @@ textarea.contact_form_text{
     display: inline-block;
     width: 250px;
     border-radius: 5px;
+  }
+
+  .skills-grid {
+    grid-template-columns: repeat(4, 1fr);
   }
   
   .button_wrapper{
