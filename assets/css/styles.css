@@ -46,7 +46,6 @@
   --z-fixed: 100;
 }
 
-
 /*===== BASE =====*/
 *,::before,::after{
   box-sizing: border-box;
@@ -57,6 +56,7 @@
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
   transition: .5s;
+  scroll-behavior: smooth;
 }
 
 a{
