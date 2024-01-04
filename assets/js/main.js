@@ -1,3 +1,7 @@
+if (window.location.href !== window.location.href.toLowerCase()) {
+    window.location.href = window.location.href.toLowerCase();
+}
+
 /*===== SHOW NAVBAR  =====*/ 
 const showNavbar = (toggleId, navId, bodyId, headerId) =>{
     const toggle = document.getElementById(toggleId),
