@@ -1382,6 +1382,7 @@ p:last-child{
   background: linear-gradient(#fafafa, #ecfeff);
   transition: 0.5s;
   border-radius: 10px;
+  padding-bottom: 200px;
 }
 
 .project_content:hover{
@@ -1390,14 +1391,14 @@ p:last-child{
 }
 
 .project_content > h2:first-of-type{
-  padding: 15px;
-  margin-top: 0;
-  margin-bottom: -9%;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 10px;
 }
 
 .project_content > p:first-of-type{
-  padding: 15px;
-  margin-bottom: 0;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .project__info{
@@ -1427,7 +1428,7 @@ p:last-child{
   justify-content: center;
   font-family: var(--title-font);
   font-size: 35px;
-  margin-bottom: 4%
+  margin-bottom: 4%;
 
 }
 

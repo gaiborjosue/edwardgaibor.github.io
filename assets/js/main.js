@@ -69,7 +69,7 @@ sr.reveal('.button_c',{interval: 350});
 
 //typing animation
 var typed = new Typed(".typing", {
-    strings: ["Programmer.", "Python Lover.", "Future CS major.", "Student Fellow.", "Machine Learning Enthusiast."],
+    strings: ["Programmer.", "Python Lover.", "Future CS major.", "Research Fellow.", "Machine Learning Enthusiast.", "CS Club Event Planner."],
     typeSpeed: 100,
     backSpeed: 60,
     loop: true
