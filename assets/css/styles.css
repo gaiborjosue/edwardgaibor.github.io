@@ -215,7 +215,7 @@ img{
   display: grid;
   justify-content: center;
   align-items: center;
-  height: 600px;
+  height: auto;
   width: 900px;
 }
 
@@ -242,15 +242,15 @@ img{
 
 .red_content > h2:first-of-type{
   padding-top: 30px;
-  padding-bottom: 15px;
+  padding-bottom: 80px;
   margin-top: 0;
-  margin-bottom: -9%;
+  margin-bottom: -10%;
 }
 
 .red_content > p:first-of-type{
   padding: 15px;
   margin-bottom: 0;
-  padding-bottom: 200px;
+  padding-bottom: 50px;
 }
 
 .red__info{
@@ -281,7 +281,6 @@ img{
   justify-content: center;
   font-family: var(--title-font);
   font-size: 35px;
-  
   margin-bottom: 4%;
   color: var(--first-color);
   line-height: 1.2cm;
@@ -297,7 +296,7 @@ img{
   display: flex;
   margin-left: 40px;
   margin-right: 40px;
-  margin-top: 80px;
+  margin-top: 800px;
   color: var(--first-color);
   font-family: var(--body-font);
   font-weight: 600;
