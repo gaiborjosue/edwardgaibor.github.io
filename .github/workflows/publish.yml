@@ -29,25 +29,6 @@ jobs:
       - name: Build with Next.js 🏗️
         run: npx next build
 
-      - name: Check if out path exists
-        id: check_out_path
-        run: |
-          if [ -d "./out" ]; then
-            echo "out path exists"
-            echo "exists=true" >> $GITHUB_ENV
-          else
-            echo "out path does not exist"
-            echo "exists=false" >> $GITHUB_ENV
-          fi
-
-      - name: Check if out path exists v2
-        id: check_out_path_v2
-        run: |
-          cd ..
-          ls -la
-          cd ..
-          ls -la
-
       - name: Upload artifact 📡
         uses: actions/upload-pages-artifact@v3
         with:
