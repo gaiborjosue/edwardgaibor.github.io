@@ -21,6 +21,8 @@ jobs:
       - name: Checkout 🛎️
         uses: actions/checkout@v4
 
+
+        
       - name: Setup Node.js ⚙️ - Cache dependencies ⚡ - Install dependencies 🔧
         uses: ./.github/workflows/setup-node
 
@@ -37,7 +39,7 @@ jobs:
         with:
           path: ./out
 
-          
+
   deploy:
     environment:
       name: github-pages
