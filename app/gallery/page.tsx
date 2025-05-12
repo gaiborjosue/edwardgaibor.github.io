@@ -84,7 +84,7 @@ export default function Gallery() {
             <div key={index} className="group cursor-pointer" onClick={() => openLightbox(index)}>
               <div className="overflow-hidden rounded-2xl bg-gray-900 aspect-[16/9]">
                 <Image
-                  src={image.src || "./placeholder.svg"}
+                  src={image.src || "/placeholder.svg"}
                   alt={image.alt}
                   width={700}
                   height={400}

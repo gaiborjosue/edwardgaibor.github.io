@@ -32,7 +32,7 @@ export default function Home() {
         <header className="mb-16">
           <div className="flex items-center gap-4 mb-6">
             <Avatar className="h-10 w-10 border-1 border-gray-800 grayscale">
-              <AvatarImage src="./avatar.png" alt="Edward Gaibor" />
+              <AvatarImage src="/avatar.png" alt="Edward Gaibor" />
               <AvatarFallback>EG</AvatarFallback>
             </Avatar>
             <h1 className="text-3xl font-bold">Edward Gaibor</h1>
@@ -158,7 +158,7 @@ export default function Home() {
             <div className="aspect-[16/9] overflow-hidden rounded-2xl bg-gray-900 hover:opacity-80 transition-opacity">
               <Link href="/gallery">
                 <Image
-                  src="./gallery/waterfall-cave.jpeg"
+                  src="/gallery/waterfall-cave.jpeg"
                   alt="Waterfall viewed from inside a cave"
                   width={700}
                   height={400}
@@ -169,7 +169,7 @@ export default function Home() {
             <div className="aspect-[16/9] overflow-hidden rounded-2xl bg-gray-900 hover:opacity-80 transition-opacity">
               <Link href="/gallery">
                 <Image
-                  src="./gallery/mountain-valley.jpeg"
+                  src="/gallery/mountain-valley.jpeg"
                   alt="Mountain valley landscape"
                   width={700}
                   height={400}
@@ -180,7 +180,7 @@ export default function Home() {
             <div className="aspect-[16/9] overflow-hidden rounded-2xl bg-gray-900 hover:opacity-80 transition-opacity">
               <Link href="/gallery">
                 <Image
-                  src="./gallery/green-valley.jpeg"
+                  src="/gallery/green-valley.jpeg"
                   alt="Green valley with mountains"
                   width={700}
                   height={400}
@@ -191,7 +191,7 @@ export default function Home() {
             <div className="aspect-[16/9] overflow-hidden rounded-2xl bg-gray-900 hover:opacity-80 transition-opacity">
               <Link href="/gallery">
                 <Image
-                  src="./gallery/trail-sign.jpeg"
+                  src="/gallery/trail-sign.jpeg"
                   alt="Trail sign in mountain landscape"
                   width={700}
                   height={400}
