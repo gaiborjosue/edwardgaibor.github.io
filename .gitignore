@@ -4,3 +4,6 @@
 /assets/images/original_webp
 /assets/images/compressor.py
 node_modules
+
+.next/
+out/
