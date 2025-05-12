@@ -48,6 +48,9 @@ jobs:
       - name: Check if out path exists v2
         id: check_out_path_v2
         run: |
+          cd ..
+          ls -la
+          cd ..
           ls -la
 
       - name: Upload artifact 📡
