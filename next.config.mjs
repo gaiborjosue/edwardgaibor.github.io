@@ -1,5 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  output: "export",
+  basePath: "/edwardgaibor.github.io",
+  distDir: "./out",
   eslint: {
     ignoreDuringBuilds: true,
   },
@@ -9,8 +12,6 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  output: "export",
-  basePath: "/edwardgaibor.github.io",
 }
 
 export default nextConfig
