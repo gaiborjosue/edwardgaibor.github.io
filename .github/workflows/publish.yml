@@ -37,6 +37,7 @@ jobs:
         with:
           path: ./out
 
+          
   deploy:
     environment:
       name: github-pages
