@@ -48,12 +48,7 @@ jobs:
       - name: Check if out path exists v2
         id: check_out_path_v2
         run: |
-          if [ -d "out" ]; then
-            echo "out path exists v2"
-          else
-            echo "out path does not exist"
-            exit 1
-          fi
+          ls -la
 
       - name: Upload artifact 📡
         uses: actions/upload-pages-artifact@v3
