@@ -5,6 +5,8 @@ import { Inter } from "next/font/google"
 import { ThemeProvider } from "@/components/theme-provider"
 import { PageTransition } from "@/components/page-transition"
 
+import { SmoothCursor } from "@/components/ui/smooth-cursor";
+
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
@@ -21,6 +23,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body className={inter.className}>
+        <SmoothCursor />
         <ThemeProvider attribute="class" defaultTheme="dark" enableSystem>
           <PageTransition>{children}</PageTransition>
         </ThemeProvider>
