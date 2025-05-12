@@ -1,5 +1,6 @@
 import Link from "next/link"
 import { ArrowLeft } from "lucide-react"
+import Image from "next/image"
 
 export default function About() {
   return (
@@ -13,6 +14,15 @@ export default function About() {
         </div>
 
         <h1 className="text-3xl font-bold mb-8">About Me</h1>
+        
+        <div className="overflow-hidden rounded-2xl bg-gray-900 aspect-[16/3] mb-8">
+            <Image
+              src={"/gallery/bannerPortfolio.jpg"}
+              width={700}
+              height={400}
+              className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105 grayscale" alt={""}            />
+          </div>
+
 
         <div className="space-y-6">
           <p className="text-gray-300">
@@ -61,10 +71,17 @@ export default function About() {
           </div>
 
           <h2 className="text-xl font-bold mt-8">Publications</h2>
+          <div className="overflow-hidden rounded-2xl bg-gray-900 aspect-[16/5]">
+            <Image
+              src={"/gallery/publications.jpg"}
+              width={700}
+              height={400}
+              className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105 grayscale" alt={""}            />
+          </div>
           <div className="space-y-4">
             <div>
               <p className="text-gray-300">
-                Kim, S., Gaibor, E., & Haehn, D. (2024). Web-based Melanoma Detection. ArXiv.org.
+                Kim, S., Gaibor, E., & Haehn, D. (2024). Web-based Melanoma Detection. ArXiv.org. Accepted for publication in <b>IEEE ISBI 2025.</b>
               </p>
               <a
                 href="https://arxiv.org/abs/2403.14898"
@@ -78,7 +95,7 @@ export default function About() {
             <div>
               <p className="text-gray-300">
                 Gaibor, E., Varade, S., Deshmukh, R., Meyer, T., Geshvadi, M., Kim, S., Narayanappa, Vidhya Sree, &
-                Haehn, D. (2024). Boostlet.js: Image processing plugins for the web via JavaScript injection. ArXiv.org.
+                Haehn, D. (2024). Boostlet.js: Image processing plugins for the web via JavaScript injection. ArXiv.org. Accepted for publication in <b>IEEE ISBI 2025.</b>
               </p>
               <a
                 href="https://arxiv.org/abs/2405.07868"
