@@ -117,12 +117,6 @@ export default function About() {
               </a>
             </p>
             <p className="text-gray-300">
-              <span className="font-medium">Phone:</span>{" "}
-              <a href="tel:+18573952414" className="text-gray-400 hover:text-white">
-                +1 (857) 395-2414
-              </a>
-            </p>
-            <p className="text-gray-300">
               <span className="font-medium">Location:</span> Cambridge, Massachusetts, US
             </p>
             <div className="flex space-x-4 mt-2">
@@ -141,14 +135,6 @@ export default function About() {
                 rel="noopener noreferrer"
               >
                 LinkedIn
-              </a>
-              <a
-                href="https://edwardgaibor.me"
-                className="text-gray-400 hover:text-white underline"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Website
               </a>
             </div>
           </div>

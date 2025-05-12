@@ -18,8 +18,8 @@ export default function Home() {
           <Link href="/about" className="hover:text-gray-300 transition-colors">
             about
           </Link>
-          <Link href="/work-experience" className="hover:text-gray-300 transition-colors">
-            work experience
+          <Link href="/work-experience" className="hover:text-gray-300 transition-colors text-center">
+            experience
           </Link>
           <Link href="/projects" className="hover:text-gray-300 transition-colors">
             projects
