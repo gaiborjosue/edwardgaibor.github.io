@@ -4,7 +4,6 @@ import Link from "next/link"
 import Image from "next/image"
 import { ArrowUpRight, Github, Twitter, Youtube, ExternalLink, Linkedin } from "lucide-react"
 import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar"
-
 export default function Home() {
   return (
     <div className="min-h-screen bg-black text-white">

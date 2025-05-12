@@ -5,6 +5,9 @@ import type React from "react"
 import { useState, useEffect } from "react"
 import { motion, AnimatePresence } from "framer-motion"
 
+import { MorphingText } from "@/components/magicui/morphing-text";
+
+
 export function PageTransition({ children }: { children: React.ReactNode }) {
   const [isLoading, setIsLoading] = useState(true)
 
@@ -42,27 +45,7 @@ export function PageTransition({ children }: { children: React.ReactNode }) {
             exit={{ opacity: 0 }}
             transition={{ duration: 0.5, ease: "easeInOut" }}
           >
-            <div className="flex items-center justify-center space-x-2 mb-6">
-              {[0, 1, 2].map((i) => (
-                <motion.div
-                  key={i}
-                  className="h-3 w-3 rounded-full bg-white"
-                  variants={dotVariants}
-                  initial="initial"
-                  animate="animate"
-                  custom={i}
-                />
-              ))}
-            </div>
-
-            <motion.p
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              transition={{ delay: 0.2, duration: 0.3 }}
-              className="text-white text-sm font-medium text-center"
-            >
-              Edward Gaibor
-            </motion.p>
+            <MorphingText texts={["Edward", "Gaibor "]} />
           </motion.div>
         ) : null}
       </AnimatePresence>
