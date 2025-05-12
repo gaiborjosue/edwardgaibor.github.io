@@ -104,7 +104,7 @@ export function ImageLightbox({ images, initialIndex, open, onOpenChange }: Imag
           <div className="flex-1 flex items-center justify-center p-4">
             <div className="relative w-full h-full flex items-center justify-center">
               <Image
-                src={currentImage.src || "/placeholder.svg"}
+                src={currentImage.src || "./placeholder.svg"}
                 alt={currentImage.alt}
                 width={1200}
                 height={675}
