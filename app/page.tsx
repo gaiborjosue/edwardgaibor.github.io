@@ -38,9 +38,8 @@ export default function Home() {
             <h1 className="text-3xl font-bold">Edward Gaibor</h1>
           </div>
           <p className="text-gray-300 leading-relaxed">
-            Currently working at John Hancock - Manulife GenAI team as a Software Engineer Part-time, focusing on full
-            stack development. Studying Computer Science at UMass Boston. Research experience at MIT "NoBrainer" Sensei
-            Group and UMB's Machine Psycology lab. I like to travel, hike, run and learn about photography.
+            Currently working at <a href="https://www.johnhancock.com/index.html" target="_blank" rel="noopener noreferrer" className="underline hover:text-white">John Hancock - Manulife</a> GenAI team as a Software Engineer Part-time, focusing on full
+            stack development. Studying Computer Science at <a href="https://www.umb.edu/" target="_blank" rel="noopener noreferrer" className="underline hover:text-white">UMass Boston</a>. Research experience at MIT "NoBrainer" <a href="https://sensein.group/" target="_blank" rel="noopener noreferrer" className="underline hover:text-white">Sensein Group</a> and UMB's <a href="https://mpsych.org/" target="_blank" rel="noopener noreferrer" className="underline hover:text-white">Machine Psycology lab</a>. I like to travel, hike, run and learn about photography.
           </p>
         </header>
 
