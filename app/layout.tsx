@@ -22,6 +22,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" suppressHydrationWarning>
+      <head>
+        <link rel="icon" href="/icons/favicon.svg" type="image/svg+xml" />
+      </head>
       <body className={inter.className}>
         <SmoothCursor />
         <ThemeProvider attribute="class" defaultTheme="dark" enableSystem>
