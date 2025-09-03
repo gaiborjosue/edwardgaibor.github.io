@@ -2,7 +2,7 @@
 
 import Link from "next/link"
 import Image from "next/image"
-import { ArrowUpRight, Github, Twitter, Youtube, ExternalLink, Linkedin } from "lucide-react"
+import { ArrowUpRight, Github, Twitter, Youtube, ExternalLink, Linkedin, Crown } from "lucide-react"
 import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar"
 
 
@@ -53,10 +53,13 @@ export default function Home() {
               <div className="flex justify-between items-start">
                 <div className="w-full">
                   <div className="flex justify-between items-center mb-1">
-                    <h3 className="text-xl font-medium">QR Pigeon</h3>
+                    <h3 className="text-xl font-medium flex items-center gap-2">
+                      Elara AI
+                      <Crown className="h-4 w-4 text-yellow-400" aria-label="Awarded project" />
+                    </h3>
                     <div className="flex gap-3">
                       <a
-                        href="https://github.com/leiDnedyA/qr-image-drop"
+                        href="https://github.com/gaiborjosue/elaraFrontend"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="text-sm text-gray-400 hover:text-white transition-colors flex items-center gap-1"
@@ -64,11 +67,21 @@ export default function Home() {
                         <Github className="h-4 w-4" />
                         <span className="hidden sm:inline">GitHub</span>
                       </a>
+                      <a
+                        href="https://elarafrontend-114195159699.us-east1.run.app/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-sm text-gray-400 hover:text-white transition-colors flex items-center gap-1"
+                      >
+                        <ExternalLink className="h-4 w-4" />
+                        <span className="hidden sm:inline">Live</span>
+                      </a>
                     </div>
                   </div>
                   <p className="text-gray-400">
-                    No-signup image-sharing tool: scan a QR code on your phone, upload, then refresh the desktop page to
-                    grab the image. Built with Flask, Python, and HTML/CSS/JS.
+                    Next.js frontend for an AI chat that recommends herbal remedies and recipes. Built with TypeScript and
+                    deployed on Google Cloud Run. Includes user registration with email verification. Winner of the Google
+                    Cloud × MongoDB hackathon — 3rd place among 7k participants.
                   </p>
                 </div>
               </div>

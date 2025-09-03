@@ -2,7 +2,7 @@
 
 import { useState } from "react"
 import Link from "next/link"
-import { ArrowLeft, Github, ExternalLink, Star } from "lucide-react"
+import { ArrowLeft, Github, ExternalLink, Star, Crown } from "lucide-react"
 
 // Project type definition
 type Project = {
@@ -17,11 +17,21 @@ type Project = {
   favorite?: boolean
   demo?: string
   frontend?: string
+  award?: boolean
 }
 
 // Projects organized by category
 const projects: Record<string, Project[]> = {
   "Web & Full-Stack": [
+    {
+      title: "Elara AI",
+      description:
+        "Next.js frontend for an AI chat recommending herbal remedies and recipes. Includes user registration with email verification. 3rd place in Google Cloud × MongoDB hackathon (7k participants).",
+      tech: "Next.js, TypeScript, MongoDB, Google Cloud Run",
+      github: "https://github.com/gaiborjosue/elaraFrontend",
+      live: "https://elarafrontend-114195159699.us-east1.run.app/",
+      award: true,
+    },
     {
       title: "QR Pigeon",
       description:
@@ -204,6 +214,7 @@ export default function Projects() {
                     <h3 className="text-xl font-medium flex items-center">
                       {project.title}
                       <Star className="h-4 w-4 ml-2 text-yellow-400" />
+                      {project.award && <Crown className="h-4 w-4 ml-2 text-yellow-400" aria-label="Awarded project" />}
                     </h3>
                     <p className="text-gray-400 mt-1">{project.description}</p>
                     <p className="text-gray-500 text-sm mt-2">
@@ -281,6 +292,7 @@ export default function Projects() {
                         <h3 className="text-xl font-medium flex items-center">
                           {project.title}
                           {project.favorite && <Star className="h-4 w-4 ml-2 text-yellow-400" />}
+                          {project.award && <Crown className="h-4 w-4 ml-2 text-yellow-400" aria-label="Awarded project" />}
                         </h3>
                         <p className="text-gray-400 mt-1">{project.description}</p>
                         <p className="text-gray-500 text-sm mt-2">
