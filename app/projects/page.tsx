@@ -17,12 +17,21 @@ type Project = {
   favorite?: boolean
   demo?: string
   frontend?: string
+  cli?: string
   award?: boolean
 }
 
 // Projects organized by category
 const projects: Record<string, Project[]> = {
   "Web & Full-Stack": [
+    {
+      title: "Salomon Transcribe",
+      description:
+        "Live stream or microphone transcription and Spanish-to-English translation with RTMP or direct livestream sources through Mux.",
+      tech: "Next.js, Qwen transcription/translation models, Mux, RTMP",
+      github: "https://github.com/gaiborjosue/salomon-transcribe",
+      live: "https://salomon-gamma.vercel.app/",
+    },
     {
       title: "Elara AI",
       description:
@@ -72,6 +81,15 @@ const projects: Record<string, Project[]> = {
     },
   ],
   "Data Science & ML": [
+    {
+      title: "SliceDrop Reloaded",
+      description:
+        "Fork of SliceDrop Reloaded built with the MPSYCH lab: a Niivue-based medical image viewer for NIfTI, meshes, and tractography, with client-side WebSocket/WebRTC sharing and slicedrop-cli for sharing files from terminal-only cluster environments through Dropbox-backed URLs.",
+      tech: "Niivue, JavaScript, WebRTC, WebSockets, Dropbox API",
+      github: "https://github.com/gaiborjosue/slicedrop.github.com",
+      live: "https://gaiborjosue.github.io/slicedrop.github.com/reloaded/",
+      cli: "https://github.com/gaiborjosue/slicedrop-cli",
+    },
     {
       title: "Melanoma Predictor",
       description: "Browser-based CNN for skin-cancer detection (upload or camera).",
@@ -367,6 +385,16 @@ export default function Projects() {
                               className="flex items-center gap-1 text-sm text-gray-400 hover:text-white transition-colors"
                             >
                               <ExternalLink className="h-4 w-4" /> Frontend
+                            </a>
+                          )}
+                          {project.cli && (
+                            <a
+                              href={project.cli}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="flex items-center gap-1 text-sm text-gray-400 hover:text-white transition-colors"
+                            >
+                              <Github className="h-4 w-4" /> CLI
                             </a>
                           )}
                         </div>
