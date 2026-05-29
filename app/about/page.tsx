@@ -81,6 +81,19 @@ export default function About() {
           <div className="space-y-4">
             <div>
               <p className="text-gray-300">
+                Kanamarlapudi, A., Zurrin, R., Gaibor, E., et al. (2026). OMAMA-DB: the Oregon-Massachusetts Mammography Database. <b>Journal of Medical Imaging, 13</b>(6), 062205.
+              </p>
+              <a
+                href="https://doi.org/10.1117/1.JMI.13.6.062205"
+                className="text-gray-400 hover:text-white underline"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                https://doi.org/10.1117/1.JMI.13.6.062205
+              </a>
+            </div>
+            <div>
+              <p className="text-gray-300">
                 Kim, S., Gaibor, E., & Haehn, D. (2024). Web-based Melanoma Detection. ArXiv.org. Accepted for publication in <b>IEEE ISBI 2025.</b>
               </p>
               <a
